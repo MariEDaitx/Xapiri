@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xapiri</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <header>
+        <h1>Xapiri</h1>
+        <nav>
+            <a href="#produtos">Produtos</a>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#contato">Cadastre-se</a>
+        </nav>
+
+    </header>
+
+    <main>
+       <section class="section">
+        <h2>Expondo a Cultura Indígena Através de Produtos Artesanais</h2>
+        <section class="carousel">
+            <section class="carousel-content" id="carousel-content">
+                <img src="/img/Aqui no Brasil, acredita-se que os índios sejam nossos primeiros artesãos e suas técnicas são de estilo marcante como  a cerâmica, pintura com tingimentos naturais ( bem atuais aliás) , cestarias e arte plu.jpg" alt="Foto 1">
+                <img src="/img/Artesanato da Região Norte do Brasil_ tipos mais usados em cada estados - Artesanato Passo a Passo!.jpg" alt="Foto 2">
+                <img src="/img/c9df68d3-2200-47c8-a401-bf4052bb2307.jpg" alt="Foto 3">
+            </section>
+            <section class="carousel-buttons">
+                <button onclick="moveCarousel(-1)">&#10094;</button>
+                <button onclick="moveCarousel(1)">&#10095;</button>
+            </section>
+        </section>
+    </section>
+         <section class="section" id="produtos">
+        <h2>Produtos em Destaque</h2>
+        <section class="products">
+            <section class="product">
+                <img src="https://via.placeholder.com/300" alt="Produto 1">
+                <h3>Cesta de Palha</h3>
+                <p>Produzido pela comunidade Xingu, feita à mão com materiais naturais.</p>
+                <p><strong>Local:</strong> Aldeia Xingu, Mato Grosso</p>
+                <a href="https://wa.me/+5521999999999" target="_blank">Entrar em Contato</a>
+            </section>
+            <section class="product">
+                <img src="https://via.placeholder.com/300" alt="Produto 2">
+                <h3>Colar de Sementes</h3>
+                <p>Feito pela comunidade Guarani, utilizando sementes e fibras naturais.</p>
+                <p><strong>Local:</strong> Aldeia Guarani, São Paulo</p>
+                <a href="https://wa.me/+5521999999999" target="_blank">Entrar em Contato</a>
+            </section>
+            <section class="product">
+                <img src="https://via.placeholder.com/300" alt="Produto 3">
+                <h3>Arte em Cerâmica</h3>
+                <p>Artesanato da comunidade Pataxó, retratando símbolos tradicionais.</p>
+                <p><strong>Local:</strong> Aldeia Pataxó, Bahia</p>
+                <a href="https://wa.me/+5521999999999" target="_blank">Entrar em Contato</a>
+            </section>
+        </section>
+    </section>
+
+
+    
+    <section class="about" id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>
+            O Xapiri é um espaço dedicado a valorizar e sectionulgar a rica cultura dos povos indígenas do Brasil. Nosso objetivo é conectar
+            comunidades indígenas com pessoas que apreciam o artesanato autêntico e desejam adquirir produtos feitos à mão,
+            sustentáveis e que carregam séculos de tradição. Cada compra é um incentivo à preservação cultural e uma contribuição
+            direta ao desenvolvimento das comunidades.
+        </p>
+    </section>
+
+    <section class="contact-section" id="contato">
+        <h2>Entre em Contato com as Comunidades</h2>
+        <section class="contact-form">
+            <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <textarea name="message" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </section>
+    </main>
+
+   
+   
+
+    <footer class="footer">
+
+        
+    </footer>
+
+    <script>
+        let currentIndex = 0;
+        const carouselContent = document.getElementById('carousel-content');
+    </script>
